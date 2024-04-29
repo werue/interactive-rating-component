@@ -28,23 +28,22 @@
       to help us improve our offering!</p>
     </section>
 
-    <article class="ratingSelect">
-      <label for="rating1" class="icon">
-        <input class="ratingOption" type="radio" name="rating" id="rating1" value="1"><span>1</span>
-      </label>
-      <label for="rating2" class="icon">
-        <input class="ratingOption" type="radio" name="rating" id="rating2" value="2"><span>2</span>
-      </label>
-      <label for="rating3" class="icon">
-        <input class="ratingOption" type="radio" name="rating" id="rating3" value="3"><span>3</span>
-      </label>
-      <label for="rating4" class="icon">
-        <input class="ratingOption" type="radio" name="rating" id="rating4" value="4"><span>4</span>
-      </label>
-      <label for="rating5" class="icon">
-        <input class="ratingOption" type="radio" name="rating" id="rating5" value="5"><span>5</span>
-      </label>
-    </article>
+    <form class="ratingSelect">
+      <input class="ratingOption" type="radio" name="rating" id="rating1" value="1">
+      <label for="rating1" class="icon ratingOptionLabel">1</label>
+
+      <input class="ratingOption" type="radio" name="rating" id="rating2" value="2">
+      <label for="rating2" class="icon ratingOptionLabel">2</label>
+
+      <input class="ratingOption" type="radio" name="rating" id="rating3" value="3">
+      <label for="rating3" class="icon ratingOptionLabel">3</label>
+
+      <input class="ratingOption" type="radio" name="rating" id="rating4" value="4">
+      <label for="rating4" class="icon ratingOptionLabel">4</label>
+
+      <input class="ratingOption" type="radio" name="rating" id="rating5" value="5">
+      <label for="rating5" class="icon ratingOptionLabel">5</label>
+    </form>
 
     <button type="submit" class="submitBtn">Submit</button>
 
