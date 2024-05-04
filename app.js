@@ -1,3 +1,5 @@
+const ratingState = document.querySelector(".main-1")
+const thankYouState = document.querySelector(".main-2")
 const submitBtn = document.querySelector(".submitBtn");
 const ratingForm = document.querySelector(".ratingForm");
 const ratingOptions = document.getElementsByName("rating");
@@ -11,7 +13,10 @@ ratingForm.addEventListener("submit", (e) => {
             userRating = (option.value);
         }
     }
+    printedRating.textContent = `${userRating}`;
+    console.log(printedRating.textContent);
+    ratingState.classList.toggle("hidden");
+    thankYouState.classList.toggle("hidden");
 
-    console.log(userRating);
     e.preventDefault();
 })
