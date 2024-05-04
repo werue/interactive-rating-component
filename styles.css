@@ -62,6 +62,7 @@ body{
     background:radial-gradient(#232A34, #181E27);
     border-radius:30px;
     }
+
 .main-1{
     align-items:flex-start;
     padding: 2rem;
@@ -70,7 +71,7 @@ body{
 .main-2{
     align-items:center;
     text-align:center;
-    padding:3rem 2rem;
+    padding:3rem 2.25rem;
 }
 
 
@@ -109,6 +110,7 @@ body{
     align-items:center;
 
 }
+
 .ratingSelect{
     width:100%;
     display:flex;
@@ -159,4 +161,44 @@ body{
 
 .hidden{
     display:none;
+}
+
+@media(max-width:480px){
+    .main{
+        max-width:20.5rem;
+        height:22.5rem;
+        border-radius:22.5px;  
+    }
+
+    .main-1{
+        padding: 1.5rem 1.5rem 2rem 1.5rem;
+    }
+
+    .main-2{
+        padding: 2rem 1.5rem;
+    }
+
+    .icon{
+        width:2.5rem;
+        height:2.5rem;
+    }
+
+    .desc__header{
+        font-size:1.5rem;
+        margin-bottom:1rem;
+    }
+
+    .desc__p{
+        font-size:0.875rem;
+    }
+
+    .ratingSelect{
+        margin-bottom:1.5rem;
+    }
+
+    .youSelected{
+        font-size:0.875rem;
+
+        padding:0.25rem 0.75rem;
+    }
 }
